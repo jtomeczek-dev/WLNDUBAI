@@ -38,6 +38,10 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
+#### v1.1.6
+- Added version information to the website footer.
+- Synchronized HTML versioning with automated release workflow.
+
 #### v1.1.5
 - Updated `.ai_rules` to respect manual deployment process.
 - Synchronized documentation with latest project state.

@@ -11,7 +11,9 @@ Ten workflow pilnuje, aby każda zmiana w kodzie była powiązana z nową wersj�
    - `npm version patch` (dla poprawek)
    - `npm version minor` (dla nowych funkcji)
    - `npm version major` (dla dużych zmian)
-4. Dodaj wszystkie zmiany do git:
+4. Zsynchronizuj wersję w stopce `index.html`:
+   `NEW_VER=$(jq -r .version package.json) && sed -i '' "s/Version [0-9]\{1,\}\.[0-9]\{1,\}\.[0-9]\{1,\}/Version $NEW_VER/g" index.html`
+5. Dodaj wszystkie zmiany do git:
    `git add .`
 5. Stwórz commit z opisem zmian i numerem wersji:
    `git commit -m "Update v$(jq -r .version package.json): Your description here"`
