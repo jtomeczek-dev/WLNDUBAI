@@ -8,6 +8,7 @@ A premium landing page created for the **Warwick Legal Network (WLN) Spring Conf
 - **Responsive Design**: Fully compatible with desktop and mobile devices.
 - **Integrated Contact Flow**: HubSpot-ready contact section for business inquiries.
 - **Optimized Assets**: High-performance video (WebM/MP4) and custom favicons.
+- **Git Optimization**: Strategically tracked assets to ensure reliable deployment of critical media files.
 
 ## 🛠 Tech Stack
 - **HTML5 / CSS3** (Custom Brand Theme)
@@ -34,3 +35,9 @@ A premium landing page created for the **Warwick Legal Network (WLN) Spring Conf
 
 ## 📄 License
 Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
+
+---
+### 📝 Change Log
+#### v1.1.3
+- Fixed missing background video on live deployment by updating `.gitignore` rules.
+- Included optimized hero video assets in the repository.
