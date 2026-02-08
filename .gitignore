@@ -1,3 +1,5 @@
-VIDEO/
+VIDEO/*
+!VIDEO/HERO/
+VIDEO/HERO/*
 !VIDEO/HERO/HERO1_optimized.mp4
 !VIDEO/HERO/HERO1_optimized.webm
