@@ -38,9 +38,11 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
+#### v1.2.0
+- Embedded YouTube player for Video 2 (Practice & Prompts) in both EN and PL versions.
+- Completed the "Conference Materials" section with both videos functional.
+
 #### v1.1.9
-- Embedded YouTube player for Video 1 (Vision & Tools) in both EN and PL versions.
-- Improved video responsiveness using Tailwind's aspect-ratio utilities.
 
 #### v1.1.8
 - Implemented multi-language support (EN/PL).
