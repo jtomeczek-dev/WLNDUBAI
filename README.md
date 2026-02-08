@@ -38,6 +38,10 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
-#### v1.1.3
-- Fixed missing background video on live deployment by updating `.gitignore` rules.
-- Included optimized hero video assets in the repository.
+#### v1.1.5
+- Updated `.ai_rules` to respect manual deployment process.
+- Synchronized documentation with latest project state.
+
+#### v1.1.4
+- Fixed missing background video on live deployment by force-adding optimized assets.
+- Adjusted `.gitignore` to allow critical media files.

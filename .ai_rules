@@ -8,9 +8,10 @@ Każda zmiana w kodzie (HTML, CSS, JS, treść PROMPTBOKA) MUSI być zakończona
 2. Zaktualizuj plik `README.md` w języku angielskim, opisując najnowsze zmiany.
 3. Użyj `npm version [patch|minor|major]` aby zaktualizować wersję.
 4. Wyślij zmiany na GitHub (`git push origin main --tags`).
+5. **WAŻNE**: Nie sprawdzaj strony produkcyjnej (live) od razu po pushu. Poczekaj, aż użytkownik ręcznie zaktualizuje serwer i da sygnał, że wersja jest gotowa do testów.
 
 ### Cel:
-Zapewnienie pełnej historii zmian, jasnej struktury wersji projektu oraz aktualnej dokumentacji w języku angielskim (README.md) przy każdym wydaniu.
+Zapewnienie pełnej historii zmian, jasnej struktury wersji projektu oraz aktualnej dokumentacji w języku angielskim (README.md) przy każdym wydaniu, przy zachowaniu procedur wdrożeniowych użytkownika.
 
 ---
 *Niniejszy plik jest instrukcją dla agentów AI pracujących nad tym repozytorium.*
