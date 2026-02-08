@@ -38,9 +38,12 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
-#### v1.1.7
-- Strictly restricted development verification to `localhost:3000` per user request.
-- Final sync of `.ai_rules` with manual deployment workflow.
+#### v1.1.8
+- Implemented multi-language support (EN/PL).
+- English is now the default language (index.html).
+- Polish version moved to subfolder (`/pl/index.html`).
+- Added language switcher to the header.
+- Synchronized version footer across all language versions.
 
 #### v1.1.6
 - Added version information to the website footer.
