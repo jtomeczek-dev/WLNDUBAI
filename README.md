@@ -38,6 +38,9 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
+#### v1.2.2
+- Updated video durations: Video 1 (11:13), Video 2 (8:49).
+
 #### v1.2.1
 - Integrated active HubSpot contact form in both EN and PL versions.
 - Removed form placeholders.
