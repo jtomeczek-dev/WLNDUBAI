@@ -38,6 +38,10 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
+#### v1.1.7
+- Strictly restricted development verification to `localhost:3000` per user request.
+- Final sync of `.ai_rules` with manual deployment workflow.
+
 #### v1.1.6
 - Added version information to the website footer.
 - Synchronized HTML versioning with automated release workflow.
