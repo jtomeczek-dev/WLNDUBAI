@@ -38,6 +38,10 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
+#### v1.2.1
+- Integrated active HubSpot contact form in both EN and PL versions.
+- Removed form placeholders.
+
 #### v1.2.0
 - Embedded YouTube player for Video 2 (Practice & Prompts) in both EN and PL versions.
 - Completed the "Conference Materials" section with both videos functional.
