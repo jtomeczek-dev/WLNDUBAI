@@ -10,6 +10,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap"
         rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon.png">
     <style>
         body {
             font-family: 'Inter', sans-serif;
@@ -22,25 +24,30 @@
         }
 
         .hero-bg {
-            background-image: linear-gradient(rgba(17, 24, 39, 0.8), rgba(17, 24, 39, 0.9)), url('https://images.unsplash.com/photo-1512453979798-5ea90b2009f4?q=80&w=2070&auto=format&fit=crop');
+            background-image: linear-gradient(rgba(20, 23, 56, 0.4), rgba(20, 23, 56, 0.6)), url('https://images.unsplash.com/photo-1512453979798-5ea90b2009f4?q=80&w=2070&auto=format&fit=crop');
             background-size: cover;
             background-position: center;
         }
 
+        .z-1 {
+            z-index: 1;
+        }
+
         .gold-text {
-            color: #D4AF37;
+            color: #F07D00;
+            /* Brand Orange */
         }
 
         .gold-border {
-            border-color: #D4AF37;
+            border-color: #F07D00;
         }
 
         .gold-bg {
-            background-color: #D4AF37;
+            background-color: #F07D00;
         }
 
         .gold-hover:hover {
-            background-color: #B5952F;
+            background-color: #FF9C30;
         }
     </style>
 </head>
@@ -48,12 +55,19 @@
 <body class="bg-gray-50 text-gray-800">
 
     <!-- HERO SECTION -->
-    <header class="hero-bg text-white min-h-screen flex items-center justify-center relative">
+    <header class="hero-bg text-white min-h-screen flex items-center justify-center relative overflow-hidden">
+        <!-- Background Video -->
+        <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover z-0">
+            <source src="VIDEO/HERO/HERO1_optimized.webm" type="video/webm">
+            <source src="VIDEO/HERO/HERO1_optimized.mp4" type="video/mp4">
+        </video>
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black/60 z-1"></div>
+
         <div class="container mx-auto px-6 text-center z-10">
-            <div class="mb-6 opacity-80">
-                <p class="text-xs md:text-sm tracking-widest text-gray-300">AUTHOR: JULIUSZ TOMECZEK • JT CONSULTING</p>
-                <p class="text-xs md:text-sm uppercase tracking-widest text-gold-500">for Warwick Legal Network • Spring
-                    Conference 2026</p>
+            <div class="mb-8 flex justify-center">
+                <img src="assets/wln_logo.png" alt="Warwick Legal Network Logo"
+                    class="h-16 md:h-20 drop-shadow-lg opacity-95">
             </div>
             <h1 class="text-5xl md:text-7xl font-bold mb-6">Be Bold. Be <span class="gold-text">DubAI</span>.</h1>
             <p class="text-xl md:text-2xl font-light mb-10 max-w-3xl mx-auto text-gray-200">
@@ -71,7 +85,7 @@
                 </a>
             </div>
         </div>
-        <div class="absolute bottom-10 animate-bounce">
+        <div class="absolute bottom-10 animate-bounce z-10">
             <i class="fas fa-chevron-down text-2xl text-gray-400"></i>
         </div>
     </header>
@@ -288,14 +302,22 @@
     </section>
 
     <!-- FOOTER -->
-    <footer class="bg-gray-900 text-gray-400 py-8 border-t border-gray-800">
-        <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
-            <div class="mb-4 md:mb-0">
-                <span class="text-white font-bold text-lg">AI for Everyone</span>
+    <footer class="text-gray-400 py-12 border-t border-white/10" style="background-color: #141738;">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center mb-8">
+                <div class="mb-6 md:mb-0">
+                    <span class="text-white font-bold text-xl tracking-tight">AI for Everyone</span>
+                    <p class="text-xs mt-1 opacity-60">JT Consulting - Law Firm AI Solutions</p>
+                </div>
+                <div class="text-center md:text-right">
+                    <p class="text-xs md:text-sm tracking-widest mb-1 text-gray-300">AUTHOR: JULIUSZ TOMECZEK • JT
+                        CONSULTING</p>
+                    <p class="text-xs md:text-sm uppercase tracking-widest" style="color: #F07D00;">for Warwick Legal
+                        Network • Spring Conference 2026</p>
+                </div>
             </div>
-            <div class="text-sm text-center md:text-right">
-                <p>&copy; 2026 JT CONSULTING - Juliusz Tomeczek. All rights reserved.</p>
-                <p class="text-xs mt-1">Created for Warwick Legal Network Conference.</p>
+            <div class="pt-8 border-t border-white/5 text-center">
+                <p class="text-xs opacity-50">&copy; 2026 JT CONSULTING. All rights reserved.</p>
             </div>
         </div>
     </footer>
