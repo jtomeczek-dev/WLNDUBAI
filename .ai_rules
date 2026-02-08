@@ -1,0 +1,15 @@
+# AI Rules for WLN DUBAI Project
+
+## Zasada Automatycznego Wersjonowania
+Każda zmiana w kodzie (HTML, CSS, JS, treść PROMPTBOKA) MUSI być zakończona uruchomieniem workflow `/push-version`.
+
+### Procedura:
+1. Po wykonaniu zadania sprawdź obecną wersję w `package.json`.
+2. Użyj `npm version [patch|minor|major]` aby zaktualizować wersję.
+3. Wyślij zmiany na GitHub (`git push origin main --tags`).
+
+### Cel:
+Zapewnienie pełnej historii zmian i jasnej struktury wersji projektu dla użytkownika.
+
+---
+*Niniejszy plik jest instrukcją dla agentów AI pracujących nad tym repozytorium.*
