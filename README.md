@@ -40,6 +40,9 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
+#### v1.4.5
+- Updated conference panel tagline in "Conference Materials" section.
+- Increased version to 1.4.5.
 #### v1.4.4
 - Refined service icons to have a pure white background for seamless blending.
 - Increased version to 1.4.4.
