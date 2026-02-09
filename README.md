@@ -40,6 +40,9 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
+#### v1.3.9
+- Implemented Google Consent Mode v2 (EEA compliance).
+- Added dynamic loading of Google Analytics based on user consent.
 #### v1.3.8
 - Added Google Analytics tag to all subpages.
 #### v1.3.7

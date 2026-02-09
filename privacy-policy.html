@@ -13,13 +13,23 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon.png">
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4TZ086RDYS"></script>
+    <!-- Google tag (gtag.js) initialization -->
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
 
+        // Check if consent was already given
+        const consentGiven = localStorage.getItem('cookies-accepted') === 'true';
+
+        gtag('consent', 'default', {
+            'ad_user_data': consentGiven ? 'granted' : 'denied',
+            'ad_personalization': consentGiven ? 'granted' : 'denied',
+            'ad_storage': consentGiven ? 'granted' : 'denied',
+            'analytics_storage': consentGiven ? 'granted' : 'denied',
+            'wait_for_update': 500
+        });
+
+        gtag('js', new Date());
         gtag('config', 'G-4TZ086RDYS');
     </script>
     <style>
