@@ -40,6 +40,10 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
+#### v1.5.5
+- Darkened the background of the "Get in touch" section for better contrast.
+- Bumped version to 1.5.5.
+
 #### v1.5.4
 - Added "FAQ in a Nutshell" section based on conference materials.
 - Bumped version to 1.5.4.
