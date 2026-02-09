@@ -40,6 +40,10 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
+#### v1.3.8
+- Added Google Analytics tag to all subpages.
+#### v1.3.7
+- Removed "EN" language indicator.
 #### v1.3.6
 - Removed Polish language version entirely.
 - Website is now English-only.
