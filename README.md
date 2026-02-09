@@ -40,6 +40,14 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
+#### v1.3.2
+- Rebranded company to "JT CONSULTING" (all caps).
+- Redesigned HERO section with conference title and "Why Not?".
+- Highlighted "AI" in red within "DubAI".
+- Updated Footer with linked logo and removed firm name from contact section.
+- Added localized feedback prompt in ebook section.
+- Bumped version to 1.3.2.
+
 #### v1.3.1
 - Added cookie consent banner to EN and PL versions.
 - Synchronized versioning across all local files.
