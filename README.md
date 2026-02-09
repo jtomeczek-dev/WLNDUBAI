@@ -4,6 +4,8 @@ A premium landing page created for the **Warwick Legal Network (WLN) Spring Conf
 
 ## 🚀 Features
 - **Hero Video Background**: Optimized 4K background video of Dubai skyline.
+- **E-book Interaction**: Direct PDF download and professional cover visualization.
+- **Privacy Compliance**: Dedicated Privacy Policy subpages (EN/PL) linked in the footer.
 - **Brand Consistency**: Color scheme and assets aligned with official WLN branding (Navy Blue & Brand Orange).
 - **Responsive Design**: Fully compatible with desktop and mobile devices.
 - **Integrated Contact Flow**: HubSpot-ready contact section for business inquiries.
@@ -38,6 +40,12 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
+#### v1.3.0
+- Added direct PDF download for "The Legal Promptbook".
+- Updated e-book cover with high-quality visualization.
+- Implemented Privacy Policy pages for both English and Polish versions.
+- Added Privacy Policy links to the footer across all versions.
+
 #### v1.2.2
 - Updated video durations: Video 1 (11:13), Video 2 (8:49).
 
