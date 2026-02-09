@@ -40,6 +40,10 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
+#### v1.5.4
+- Added "FAQ in a Nutshell" section based on conference materials.
+- Bumped version to 1.5.4.
+
 #### v1.5.3
 - Refined text in "Blog Post" section.
 - Bumped version to 1.5.3.
