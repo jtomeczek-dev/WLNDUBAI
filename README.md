@@ -40,6 +40,10 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
+#### v1.4.6
+- Redesigned footer into a 3-panel layout.
+- Added detailed information about WLN Spring Conference 2026 to the footer.
+- Increased version to 1.4.6.
 #### v1.4.5
 - Updated conference panel tagline in "Conference Materials" section.
 - Increased version to 1.4.5.

@@ -323,24 +323,43 @@
     <!-- FOOTER -->
     <footer class="text-gray-400 py-12 border-t border-white/10" style="background-color: #141738;">
         <div class="container mx-auto px-6">
-            <div class="flex flex-col md:flex-row justify-between items-center mb-8">
-                <div class="mb-6 md:mb-0 flex flex-col items-center md:items-start">
-                    <div style="width: 200px;">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 items-center mb-12">
+                <!-- Panel 1: Brand -->
+                <div class="flex flex-col items-center md:items-start text-center md:text-left">
+                    <div style="width: 180px;">
                         <a href="https://aiforeveryone.blog/en/" target="_blank"
                             class="block mb-2 hover:opacity-80 transition">
                             <img src="assets/logo_transparten.png" alt="AI for Everyone Logo" class="w-full h-auto">
                         </a>
-                        <p class="text-[10px] font-bold text-gray-300 uppercase text-center"
-                            style="letter-spacing: 0.05em;">
+                        <p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest">
                             Law Firm AI Solutions
                         </p>
                     </div>
                 </div>
-                <div class="text-center md:text-right">
-                    <p class="text-xs md:text-sm tracking-widest mb-1 text-gray-300 uppercase">AUTHOR: JULIUSZ TOMECZEK
-                        • JT CONSULTING</p>
-                    <p class="text-xs md:text-sm uppercase tracking-widest" style="color: #F07D00;">for Warwick Legal
-                        Network • Spring Conference 2026</p>
+
+                <!-- Panel 2: Conference -->
+                <div
+                    class="flex flex-col items-center text-center p-6 border-y md:border-y-0 md:border-x border-white/10">
+                    <h4 class="text-sm font-bold text-orange-500 uppercase tracking-[0.2em] mb-4">WLN Spring Conference
+                        2026</h4>
+                    <div class="space-y-2">
+                        <p class="text-xs text-gray-300 flex items-center justify-center">
+                            <i class="fas fa-map-marker-alt text-orange-500 mr-2 opacity-80"></i> Dubai, UAE
+                        </p>
+                        <p class="text-xs text-gray-300 flex items-center justify-center">
+                            <i class="fas fa-calendar-alt text-orange-500 mr-2 opacity-80"></i> 12.02 - 14.02.2026
+                        </p>
+                        <p class="text-[10px] text-gray-400 uppercase tracking-wider mt-2">
+                            Hosted by <span class="text-gray-200 font-semibold">Paoletti Legal Consultants</span>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Panel 3: Author -->
+                <div class="flex flex-col items-center md:items-end text-center md:text-right">
+                    <p class="text-xs md:text-sm tracking-[0.2em] mb-1 text-gray-300 uppercase font-bold">JULIUSZ
+                        TOMECZEK</p>
+                    <p class="text-[10px] text-gray-500 uppercase tracking-[0.15em]">JT Consulting • for WLN</p>
                 </div>
             </div>
             <div class="pt-8 border-t border-white/5 text-center">
@@ -348,7 +367,7 @@
                 <a href="privacy-policy.html"
                     class="text-xs opacity-50 hover:opacity-100 hover:text-white transition uppercase tracking-widest border-b border-transparent hover:border-white pb-1">Privacy
                     Policy</a>
-                <p class="text-[10px] opacity-30 mt-6 uppercase tracking-tighter">Version 1.4.5</p>
+                <p class="text-[10px] opacity-30 mt-6 uppercase tracking-tighter">Version 1.4.6</p>
             </div>
         </div>
     </footer>
