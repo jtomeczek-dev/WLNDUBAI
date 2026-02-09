@@ -40,6 +40,9 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
+#### v1.4.4
+- Refined service icons to have a pure white background for seamless blending.
+- Increased version to 1.4.4.
 #### v1.4.3
 - Redesigned service icons with premium 3D-rendered assets.
 - Refined offer section styling for better visual hierarchy.
