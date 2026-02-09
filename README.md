@@ -40,6 +40,9 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
+#### v1.3.6
+- Removed Polish language version entirely.
+- Website is now English-only.
 #### v1.3.5
 - Updated all blog references to `https://aiforeveryone.blog/en/`.
 - Bumped version to 1.3.5.
