@@ -40,6 +40,10 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
+#### v1.5.7
+- Changed icons in the contact section to orange to match the overall theme.
+- Bumped version to 1.5.7.
+
 #### v1.5.6
 - Lightened the left panel of the contact form to contrast with the dark section background.
 - Bumped version to 1.5.6.
