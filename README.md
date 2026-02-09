@@ -40,6 +40,9 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
+#### v1.4.8
+- Linked "WLN Spring Conference 2026" in the footer to the official Warwick Legal Network events page.
+- Increased version to 1.4.8.
 #### v1.4.7
 - Removed "Law Firm AI Solutions" tagline from footer.
 - Increased version to 1.4.7.
