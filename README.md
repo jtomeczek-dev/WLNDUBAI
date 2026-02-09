@@ -40,6 +40,8 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
+#### v1.4.1
+- Integrated Google Tag Manager (GTM).
 #### v1.4.0
 - Major update: Google Consent Mode v2 implementation.
 - Analytics integration.
