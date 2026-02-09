@@ -40,6 +40,10 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
+#### v1.3.1
+- Added cookie consent banner to EN and PL versions.
+- Synchronized versioning across all local files.
+
 #### v1.3.0
 - Added direct PDF download for "The Legal Promptbook".
 - Updated e-book cover with high-quality visualization.
