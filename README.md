@@ -40,6 +40,10 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
+#### v1.5.3
+- Refined text in "Blog Post" section.
+- Bumped version to 1.5.3.
+
 #### v1.5.2
 - Added "Blog Post" section to homepage linking to the Claude artifact.
 - Bumped version to 1.5.2.
