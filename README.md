@@ -40,6 +40,8 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
+#### v1.3.3
+- Refined footer design (logo and description alignment). Updated description text.
 #### v1.3.2
 - Rebranded company to "JT CONSULTING" (all caps).
 - Redesigned HERO section with conference title and "Why Not?".
