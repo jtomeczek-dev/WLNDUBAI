@@ -40,6 +40,14 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
+#### v1.5.1
+- Unified versioning across package.json and index.html to 1.5.1.
+- Updated documentation.
+
+#### v1.5.0
+- Added new assets for AI tools (Claude, Copilot, Gemini, Perplexity).
+- Minor text updates in the footer.
+
 #### v1.4.9
 - Linked "WLN Spring Conference 2026" in the footer to the official events page.
 - Increased version to 1.4.9.
