@@ -40,6 +40,9 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
+#### v1.3.5
+- Updated all blog references to `https://aiforeveryone.blog/en/`.
+- Bumped version to 1.3.5.
 #### v1.3.4
 - Bumped version for final footer alignment fixes.
 #### v1.3.3
