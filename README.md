@@ -40,6 +40,10 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
+#### v1.5.8
+- Lightened the overlay on the "Blog Post" image for better visibility.
+- Bumped version to 1.5.8.
+
 #### v1.5.7
 - Changed icons in the contact section to orange to match the overall theme.
 - Bumped version to 1.5.7.
