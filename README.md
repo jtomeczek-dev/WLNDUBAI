@@ -40,6 +40,10 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
+#### v1.5.6
+- Lightened the left panel of the contact form to contrast with the dark section background.
+- Bumped version to 1.5.6.
+
 #### v1.5.5
 - Darkened the background of the "Get in touch" section for better contrast.
 - Bumped version to 1.5.5.
