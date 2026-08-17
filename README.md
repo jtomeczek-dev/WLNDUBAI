@@ -40,6 +40,10 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
+#### v1.5.11
+- Linked "JT Consulting" in the footer author panel to https://jt-consulting.pl.
+- Bumped version to 1.5.11.
+
 #### v1.5.10
 - Linked "JT CONSULTING" in the footer copyright line to https://jt-consulting.pl.
 - Removed the macOS `.DS_Store` file from the repository and added it to `.gitignore`.
