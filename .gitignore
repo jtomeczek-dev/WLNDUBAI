@@ -1,3 +1,6 @@
+# macOS
+.DS_Store
+
 VIDEO/*
 !VIDEO/HERO/
 VIDEO/HERO/*

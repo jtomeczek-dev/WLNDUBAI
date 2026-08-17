@@ -11,13 +11,13 @@ Ten workflow pilnuje, aby każda zmiana w kodzie była powiązana z nową wersj�
    - `npm version patch` (dla poprawek)
    - `npm version minor` (dla nowych funkcji)
    - `npm version major` (dla dużych zmian)
-4. Zsynchronizuj wersję w stopce `index.html`:
-   `NEW_VER=$(jq -r .version package.json) && sed -i '' "s/Version [0-9]\{1,\}\.[0-9]\{1,\}\.[0-9]\{1,\}/Version $NEW_VER/g" index.html`
+4. Zsynchronizuj wersję w stopce `index.html` (polecenie działa tak samo na Windowsie, macOS i Linuksie, bo korzysta wyłącznie z Node, bez `sed` i bez `jq`):
+   `node -e "const fs=require('fs');const v=require('./package.json').version;fs.writeFileSync('index.html',fs.readFileSync('index.html','utf8').replace(/Version \d+\.\d+\.\d+/g,'Version '+v));"`
 5. Dodaj wszystkie zmiany do git:
    `git add .`
-5. Stwórz commit z opisem zmian i numerem wersji:
-   `git commit -m "Update v$(jq -r .version package.json): Your description here"`
-6. Prześlij zmiany wraz z tagami na repozytorium:
+6. Stwórz commit z opisem zmian i numerem wersji:
+   `git commit -m "Update v$(node -p "require('./package.json').version"): Your description here"`
+7. Prześlij zmiany wraz z tagami na repozytorium:
    `git push origin main --tags`
 
 PAMIĘTAJ: Każdy nowy czat musi zacząć od przeczytania `.ai_rules`, aby zachować tę ciągłość.

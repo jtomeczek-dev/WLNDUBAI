@@ -40,6 +40,12 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
+#### v1.5.10
+- Linked "JT CONSULTING" in the footer copyright line to https://jt-consulting.pl.
+- Removed the macOS `.DS_Store` file from the repository and added it to `.gitignore`.
+- Replaced the macOS-only `sed -i ''` / `jq` commands in the `/push-version` workflow with cross-platform Node one-liners.
+- Bumped version to 1.5.10.
+
 #### v1.5.8
 - Lightened the overlay on the "Blog Post" image for better visibility.
 - Bumped version to 1.5.8.
