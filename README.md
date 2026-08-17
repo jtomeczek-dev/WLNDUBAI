@@ -40,6 +40,10 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
+#### v1.5.13
+- Added `<link rel="canonical">` to `index.html` and `privacy-policy.html`, pointing to the addresses served from `bedubai.aiforeveryone.com.pl`.
+- Bumped version to 1.5.13.
+
 #### v1.5.12
 - Fixed the domain mismatch in metadata: Schema.org data in `index.html` and `privacy-policy.html` pointed to the non-existent `bedubai.aiforeveryone.blog/en/`, while the site is served from `bedubai.aiforeveryone.com.pl` (as already declared in `sitemap.xml` and `robots.txt`).
 - Bumped version to 1.5.12.
