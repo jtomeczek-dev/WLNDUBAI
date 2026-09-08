@@ -40,6 +40,11 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
+#### v1.5.14
+- Pointed both footer links to JT CONSULTING at the English version of the company site (`https://jt-consulting.pl/en/`) and tagged them with UTM campaign parameters, distinguished by `utm_content=podpis` (author panel) and `utm_content=copyright` (copyright line).
+- Dropped `noreferrer` from those two links, keeping `rel="noopener"`. `noopener` alone blocks `window.opener` tab hijacking; `noreferrer` only stripped the `Referer` header and hid the referral source from analytics.
+- Bumped version to 1.5.14.
+
 #### v1.5.13
 - Added `<link rel="canonical">` to `index.html` and `privacy-policy.html`, pointing to the addresses served from `bedubai.aiforeveryone.com.pl`.
 - Bumped version to 1.5.13.
