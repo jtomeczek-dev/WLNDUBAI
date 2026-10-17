@@ -40,6 +40,11 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
+#### v1.5.16
+- Tagged the clickable links to the AI for Everyone blog (`https://aiforeveryone.blog/en`) with UTM campaign parameters, distinguished by `utm_medium=tresc` / `utm_content=kontakt` (text link in the "Get in touch" section) and `utm_medium=stopka` / `utm_content=logo` (footer logo in `index.html` and `privacy-policy.html`).
+- Left the `url` fields in the Schema.org data without UTM parameters, as they identify the organisation rather than serve as links to click.
+- Bumped version to 1.5.16.
+
 #### v1.5.15
 - Removed HubSpot from the site: the embedded HubSpot form in the "Get in touch" section is replaced by a "Contact JT CONSULTING" button leading to the JT CONSULTING contact page (`https://jt-consulting.pl/en/contact/`), tagged with UTM parameters (`utm_medium=tresc`, `utm_content=kontakt`) and opened in a new tab with `rel="noopener"`.
 - Updated the Privacy Policy: dropped HubSpot and the contact form, described contact by e-mail, noted that the site has no contact form of its own, and added a "Last updated: October 2026" line.
