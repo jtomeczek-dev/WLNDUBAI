@@ -8,7 +8,7 @@ A premium landing page created for the **Warwick Legal Network (WLN) Spring Conf
 - **Privacy Compliance**: Dedicated Privacy Policy subpages (EN/PL) linked in the footer.
 - **Brand Consistency**: Color scheme and assets aligned with official WLN branding (Navy Blue & Brand Orange).
 - **Responsive Design**: Fully compatible with desktop and mobile devices.
-- **Integrated Contact Flow**: HubSpot-ready contact section for business inquiries.
+- **Contact Section**: Call-to-action button leading to the JT CONSULTING contact page.
 - **Optimized Assets**: High-performance video (WebM/MP4) and custom favicons.
 - **Git Optimization**: Strategically tracked assets to ensure reliable deployment of critical media files.
 
@@ -40,6 +40,13 @@ Created by **Juliusz Tomeczek • JT Consulting**. All rights reserved.
 
 ---
 ### 📝 Change Log
+#### v1.5.15
+- Removed HubSpot from the site: the embedded HubSpot form in the "Get in touch" section is replaced by a "Contact JT CONSULTING" button leading to the JT CONSULTING contact page (`https://jt-consulting.pl/en/contact/`), tagged with UTM parameters (`utm_medium=tresc`, `utm_content=kontakt`) and opened in a new tab with `rel="noopener"`.
+- Updated the Privacy Policy: dropped HubSpot and the contact form, described contact by e-mail, noted that the site has no contact form of its own, and added a "Last updated: October 2026" line.
+- Removed the unused `.hubspot-placeholder` CSS rule and the unused `Privacy Policy.pdf` file.
+- Dropped the trailing slash from links to `https://aiforeveryone.blog/en` (the blog answers `/en/` with a 301 redirect to `/en`).
+- Bumped version to 1.5.15.
+
 #### v1.5.14
 - Pointed both footer links to JT CONSULTING at the English version of the company site (`https://jt-consulting.pl/en/`) and tagged them with UTM campaign parameters, distinguished by `utm_content=podpis` (author panel) and `utm_content=copyright` (copyright line).
 - Dropped `noreferrer` from those two links, keeping `rel="noopener"`. `noopener` alone blocks `window.opener` tab hijacking; `noreferrer` only stripped the `Referer` header and hid the referral source from analytics.

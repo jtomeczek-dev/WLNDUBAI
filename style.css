@@ -437,10 +437,6 @@ section {
     border: 1px solid var(--border);
 }
 
-.hubspot-placeholder {
-    text-align: center;
-}
-
 .form-mimic {
     display: flex;
     flex-direction: column;
